@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quizzy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Quizzy the Quiz</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      High Scores
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item hiscore1" href="#"></a></li>
+                      <li><a class="dropdown-item hiscore2" href="#"></a></li>
+                      <li><a class="dropdown-item hiscore3" href="#"></a></li>
+                      <li><a class="dropdown-item hiscore4" href="#"></a></li>
+                      <li><a class="dropdown-item hiscore5" href="#"></a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div> 
+            </div>
+          </nav>
+    </header>
+<main>
+  <div class="container">
+    <div id="home main" class="row flex-column"></div>
+       <div class="d-flex justify-content-center py-5">
+        <button class = "button bg-danger rounded-3 startbutton" onclick="">
+        <h1> Ready to play?</h1>
+         </button>
+    </div>
+</div>
+<div>
+  <span class="time d-flex justify-content-center"> </span>
+</div>
+<section>
+<div>
+  <ul class="invisible" id="list-group1">
+    <li class="list-group-item">
+      <h3>Which minty fresh mouthwash, ill-advised to use both globally and locally, is a fundamental principle in naming JavaScript functions?</h3>
+      <input class="wrong form-check-input me-1" type="checkbox" value="" aria-label="...">
+      theraBreath
+    </li>
+    <li class="list-group-item">
+      <input class="wrong form-check-input me-1" type="checkbox" value="" aria-label="...">
+      Listerine
+    </li>
+    <li class="list-group-item">
+      <input class="correct1 form-check-input me-1" type="checkbox" value="" aria-label="...">
+      Scope
+    </li>
+    <li class="list-group-item">
+      <input class="wrong form-check-input me-1" type="checkbox" value="" aria-label="...">
+      colGate
+    </li>
+    <li class="list-group-item">
+      <input class="wrong form-check-input me-1" type="checkbox" value="" aria-label="...">
+      bioTene
+    </li>
+  </ul>
+  <ul class="invisible" id="list-group2">
+    <li class="list-group-item">
+      <h3>Which flavor might a beginner at JavaScript typically consume? </h3>
+      <input class="wrong form-check-input me-1" type="checkbox" value="" aria-label="...">
+      Coffee Crumble
+    </li>
+    <li class="list-group-item">
+      <input class="wrong form-check-input me-1" type="checkbox" value="" aria-label="...">
+      Salted Pistachio 
+    </li>
+    <li class="list-group-item">
+      <input class="wrong form-check-input me-1" type="checkbox" value="" aria-label="...">
+      Listerine
+    </li>
+    <li class="list-group-item">
+      <input class="correct2 form-check-input me-1" type="checkbox" value="" aria-label="...">
+      Vanilla
+    </li>
+    <li class="list-group-item">
+      <input class="wrong form-check-input me-1" type="checkbox" value="" aria-label="...">
+      Cherry Garcia
+    </li>
+  </ul>
+  <ul class="invisible" id="list-group3">
+    <li class="list-group-item">
+      <h3>Which fashion accessory is most commonly worn amongst JavaScript fundamentals? </h3>
+      <input class="wrong form-check-input me-1" type="checkbox" value="" aria-label="...">
+      Winter scarf
+    </li>
+    <li class="list-group-item">
+      <input class="correct3 form-check-input me-1" type="checkbox" value="" aria-label="...">
+      Bootstrap 
+    </li>
+    <li class="list-group-item">
+      <input class="wrong form-check-input me-1" type="checkbox" value="" aria-label="...">
+      Bowtie
+    </li>
+    <li class="list-group-item">
+      <input class="wrong form-check-input me-1" type="checkbox" value="" aria-label="...">
+      Evening attire
+    </li>
+    <li class="list-group-item">
+      <input class="wrong form-check-input me-1" type="checkbox" value="" aria-label="...">
+      Fake nail
+    </li>
+  </ul>
+</div>
+</section>
+
+
+</main>
+
+    <script src="./script.js"></script>
+
+    
+</body>
+</html>
